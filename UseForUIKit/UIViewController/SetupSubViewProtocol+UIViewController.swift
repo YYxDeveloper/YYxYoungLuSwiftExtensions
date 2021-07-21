@@ -8,3 +8,7 @@
 import Foundation
 import UIKit
 
+protocol SetupSubViewsProtocol:UIViewController {
+    func addThisSubViews()
+    func layoutThisSubViews()
+}
