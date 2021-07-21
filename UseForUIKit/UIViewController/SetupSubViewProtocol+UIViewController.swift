@@ -12,3 +12,7 @@ protocol SetupSubViewsProtocol:UIViewController {
     func addThisSubViews()
     func layoutThisSubViews()
 }
+extension SetupSubViewsProtocol{
+    func settingView(){}
+    func bindingSubViews() {}
+}
